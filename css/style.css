@@ -165,6 +165,34 @@ p {
   margin-top: 0.5rem;
 }
 
+/* Social Icons */
+.social-icons {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.social-icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: #f1f5f9;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.social-icon svg {
+  fill: #4a6cf7;
+}
+
+.social-icon:hover {
+  background-color: #e2e8f0;
+}
+
 
 
 
