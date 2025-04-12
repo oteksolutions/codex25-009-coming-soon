@@ -43,6 +43,37 @@ main {
   margin-bottom: 20px;
 }
 
+/* Logo Styles */
+.logo {
+  margin-bottom: 2rem;
+}
+
+/* Typography */
+h1 {
+  font-size: 2.5rem;
+  margin: 0.5rem 0;
+  color: #2d3748;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+h2 {
+  font-size: 1.3rem;
+  color: #2d3748;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.2rem;
+  margin: 1.5rem 0;
+  color: #4a5568;
+}
+
+
+
+
+
+
 /* Countdown Styles */
 .countdown {
   display: flex;
