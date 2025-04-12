@@ -91,31 +91,37 @@ p {
   font-size: 0.9rem;
 }
 
-
-
-
-
-
-
 /* Countdown Styles */
 .countdown {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin: 2rem 0;
+  flex-wrap: wrap;
 }
 
 .countdown-item {
-  margin: 0 20px;
+  background-color: #4a6cf7;
+  color: white;
+  margin: 0.5rem;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 80px;
 }
 
 .number {
+  display: block;
   font-size: 2rem;
   font-weight: bold;
 }
 
 .label {
   display: block;
+  font-size: 0.9rem;
+  text-transform: uppercase;
 }
+
+
+
 
 /* Subscribe Form Styles */
 .subscribe-form {
