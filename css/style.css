@@ -120,33 +120,53 @@ p {
   text-transform: uppercase;
 }
 
+/* Notification Form */
+.notification-form {
+  margin: 2rem 0;
+}
 
-
-
-/* Subscribe Form Styles */
 .subscribe-form {
   display: flex;
-  justify-content: center;
+  max-width: 500px;
+  margin: 0 auto;
+  flex-wrap: wrap;
 }
 
 .subscribe-form input {
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  flex: 1;
+  min-width: 200px;
+  padding: 0.8rem 1rem;
+  border: 2px solid #e2e8f0;
+  border-radius: 5px;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
 }
 
 .subscribe-form button {
-  padding: 10px 15px;
-  background-color: #00698f; /* Button color */
-  color: white; /* Text color */
+  background-color: #4a6cf7;
+  color: white;
   border: none;
-  border-radius: 4px;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
   cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: background-color 0.3s;
 }
 
 .subscribe-form button:hover {
-  background-color: #005f7f; /* Darker shade on hover */
+  background-color: #3a5bd8;
 }
+
+.privacy-note {
+  font-size: 0.8rem;
+  color: #718096;
+  margin-top: 0.5rem;
+}
+
+
+
 
 /* Developer Footer */
 .developer-footer * {
