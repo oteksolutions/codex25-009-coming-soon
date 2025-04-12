@@ -69,6 +69,29 @@ p {
   color: #4a5568;
 }
 
+/* Progress Bar */
+.progress-container {
+  width: 100%;
+  background-color: #edf2f7;
+  height: 10px;
+  border-radius: 5px;
+  margin: 2rem 0;
+}
+
+.progress-bar {
+  width: 65%;
+  background-color: #4a6cf7;
+  height: 10px;
+  border-radius: 5px;
+}
+
+.progress-text {
+  margin: 0.5rem 0;
+  color: #718096;
+  font-size: 0.9rem;
+}
+
+
 
 
 
